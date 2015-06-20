@@ -75,7 +75,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-    font-family: ADAM;
+    font-family: adamregular;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -167,7 +167,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     color: #ffffff;
-    font-family: ADAM;
+    font-family: adamregular;
     line-height: 0.3;
 }
 .intro .intro-body .intro-text {
