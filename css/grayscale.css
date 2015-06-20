@@ -18,7 +18,11 @@ html {
 }
 
 h1,
-h2,
+h2 {
+    color: #acacac;
+    font: 32px ADAM;
+    line-height: 1;
+}
 h3,
 h4,
 h5,
@@ -31,21 +35,21 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
+    margin: 0 0 70px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 90px;
         font-size: 20px;
-        line-height: 1.6;
+        line-height: 1.4;
     }
 }
 
 a {
-    color: #42dca3;
+    color: #e44657;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -71,6 +75,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    font-family: ADAM;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -161,11 +166,14 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    color: #ffffff;
+    font-family: ADAM;
+    line-height: 0.3;
 }
-
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    color: #ffffff;
+    font-family: NimbusSanL;
+    line-height: 1.4;
 }
 
 @media(min-width:768px) {
@@ -175,11 +183,11 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 72px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 
@@ -187,8 +195,8 @@ a:focus {
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
+    padding: 5px 16px;
+    border: 2.5px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
@@ -257,8 +265,12 @@ a:focus {
     }
 }
 
+.about-section {
+    
+}
 .content-section {
     padding-top: 100px;
+    
 }
 
 .download-section {
@@ -276,7 +288,7 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 @media(min-width:767px) {
@@ -305,17 +317,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #e44657;
+    color: #e44657;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #e44657;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #e44657;
 }
 
 ul.banner-social-buttons {
