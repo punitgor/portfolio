@@ -58,7 +58,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #981111;
 }
 
 .light {
@@ -169,23 +169,36 @@ a:focus {
     color: #ffffff;
     font-family: adamregular;
     line-height: 0.3;
+    }
+
+.intro .intro-body .brand-heading2 {
+    color: #acacac;
+    font-family: adamregular;
+    line-height: 1;
 }
 .intro .intro-body .intro-text {
     color: #ffffff;
-    font-family: NimbusSanL;
+    font-family: nimbussanlregular;
+    line-height: 1.4;
+}
+.intro .intro-body .intro-text2 {
+    color: #ffffff;
+    font-family: nimbussanlbold;
     line-height: 1.4;
 }
 
-@media(min-width:768px) {
+@media(min-width:500px) {
     .intro {
         height: 100%;
         padding: 0;
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 72px;
+        font-size: 60px;
     }
-
+    .intro .intro-body .brand-heading2 {
+        font-size: 27px;
+    }
     .intro .intro-body .intro-text {
         font-size: 18px;
     }
@@ -266,10 +279,17 @@ a:focus {
 }
 
 .about-section {
+    font-family: nimbussanlregular;
     
 }
 .content-section {
+    font-family: nimbussanlregular;
     padding-top: 100px;
+    
+}
+.content-section2 {
+    font-family: nimbussanlregular;
+    padding-top: 70px;
     
 }
 
