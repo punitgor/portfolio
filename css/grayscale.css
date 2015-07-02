@@ -187,6 +187,103 @@ a:focus {
     line-height: 1.4;
 }
 
+.film1 {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 60px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/film1-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film1 .film-body {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.film1 .film-poster {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.film1 .film-body .brand-heading {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 0.7;
+    }
+
+.film1 .film-body .brand-heading2 {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 0.8;
+}
+.film1 .film-body .intro-text {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 1.4;
+}
+
+.film2 {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 60px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/film2-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film2 .film-body {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.film2 .film-poster {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.film2 .film-body .brand-heading {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 0.7;
+    }
+
+.film2 .film-body .brand-heading2 {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 0.8;
+}
+.film2 .film-body .intro-text {
+    text-align: left;
+    color: #ffffff;
+    font-family: nimbussanlregular;
+    line-height: 1.4;
+}
+
+
 @media(min-width:500px) {
     .intro {
         height: 100%;
@@ -208,6 +305,7 @@ a:focus {
     width: 70px;
     height: 70px;
     margin-top: 15px;
+    align-content: center;
     padding: 5px 16px;
     border: 2.5px solid #fff;
     border-radius: 100%!important;
@@ -290,6 +388,13 @@ a:focus {
 .content-section2 {
     font-family: nimbussanlregular;
     padding-top: 70px;
+    
+}
+.content-section3 {
+    color: black;
+    font-family: nimbussanlregular;
+    border color: aliceblue;
+    border-radius: 4;
     
 }
 
