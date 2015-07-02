@@ -62,7 +62,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .navbar-custom {
@@ -218,7 +218,7 @@ a:focus {
 .film1 .film-body .brand-heading {
     text-align: left;
     color: #ffffff;
-    font-family: nimbussanlregular;
+    font-family: nimbussanlbold;
     line-height: 0.7;
     }
 
@@ -266,7 +266,7 @@ a:focus {
 .film2 .film-body .brand-heading {
     text-align: left;
     color: #ffffff;
-    font-family: nimbussanlregular;
+    font-family: nimbussanlbold;
     line-height: 0.7;
     }
 
@@ -393,8 +393,6 @@ a:focus {
 .content-section3 {
     color: black;
     font-family: nimbussanlregular;
-    border color: aliceblue;
-    border-radius: 4;
     
 }
 
@@ -453,6 +451,21 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: #e44657;
+}
+
+.btn-default2 {
+    width: 65%;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-default2:hover,
+.btn-default2:focus {
+    border: 2px solid #fff;
+    outline: 0;
+    color: #000;
+    background-color: #fff;
 }
 
 ul.banner-social-buttons {
