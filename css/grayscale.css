@@ -283,13 +283,10 @@ a:focus {
     line-height: 1.4;
 }
 
-<<<<<<< HEAD
 .contact .intro-text {
     font-family: nimbussanlregular;
 }
 
-=======
->>>>>>> origin/gh-pages
 .js-video {
   height: 0;
   padding-top: 25px;
@@ -423,6 +420,9 @@ a:focus {
 }
 .content-section3 {
     color: black;
+    font-family: nimbussanlregular;
+}
+    .content-section4 {
     font-family: nimbussanlregular;
     
 }
