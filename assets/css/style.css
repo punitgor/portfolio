@@ -292,8 +292,19 @@ input {
 	vertical-align: middle;
 }
 
+.clients2 img {
+	max-width: 250px;
+	max-height: 150px;
+	vertical-align: middle;
+}
+
 .clients .col-sm-2 {
 	height: 80px;
+	line-height: 80px;
+}
+
+.clients .col-sm-3 {
+	height: 100px;
 	line-height: 80px;
 }
 
