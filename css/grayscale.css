@@ -239,7 +239,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 200px 60px;
+    padding: 100px 0px;
     text-align: center;
     color: #fff;
     background: url(../img/film2-bg.jpg) no-repeat bottom center scroll;
